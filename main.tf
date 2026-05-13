@@ -45,7 +45,7 @@ resource "aws_instance" "app_server" {
 }
 terraform {
   cloud {
-    organization = "jareddshep318"
+    organization = "TechnicalExerciseAssignment"
     workspaces {
       name = "learn-hcp-terraform"
     }
